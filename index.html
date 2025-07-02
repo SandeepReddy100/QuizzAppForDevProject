@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>🌟 Basic Knowledge Quiz</h1>
+    <div id="quiz-box">
+      <div id="question-number"></div>
+      <div id="question-text"></div>
+      <div id="options-container"></div>
+      <button id="next-btn" onclick="nextQuestion()">Next</button>
+    </div>
+    <div id="result-box" class="hidden">
+      <h2>🎉 Your Score: <span id="score"></span> / 5</h2>
+      <button onclick="startQuiz()">Try Again 🔁</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
